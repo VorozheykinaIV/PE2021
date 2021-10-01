@@ -1,4 +1,6 @@
 fun main(args: Array<String>) {
-   args.sort()
-   args.forEach { println(it) }
+	if (args.isEmpty()) println ("args is empty")
+	else 
+	   args.sort()
+	   args.forEach { println(it) }
 }

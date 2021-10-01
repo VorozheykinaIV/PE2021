@@ -1,5 +1,4 @@
-fun main(args: Array<String>) {
-    //val args = "the quick brown fox jumps over the lazy dog"
-   // println(args.replace(" ","\n"))
-   args.forEach { println(it) }
+fun main(args: Array<String>) {	
+	if (args.isEmpty()) println ("args is empty")
+	else    args.forEach { println(it) }
 }
